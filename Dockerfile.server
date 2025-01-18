@@ -1,0 +1,36 @@
+# Dockerfile for Server
+FROM node:18
+
+# Set the working directory for the server
+WORKDIR /app/server
+
+# Copy shared module first to ensure it exists during dependency installation
+COPY ./shared /app/shared
+
+# Copy the server's package.json and package-lock.json
+COPY ./server/package*.json ./
+
+# Install global dependencies and server dependencies
+RUN echo "Installing server dependencies..." \
+    && npm install -g nodemon ts-node \
+    && npm install \
+    && echo "Listing node_modules:" \
+    && ls -la node_modules \
+    && npm list --depth=0 \
+    && echo "Server dependencies installed."
+
+
+# Copy the server's source code
+COPY ./server ./
+
+# Verify contents for debugging
+RUN echo "Contents of /app/server:" && ls -la && ls -la /app/shared
+
+# Set environment variables
+ENV NODE_ENV=development
+
+# Expose the server's port
+EXPOSE 4000
+
+# Start the server with nodemon
+CMD ["nodemon", "app.ts"]

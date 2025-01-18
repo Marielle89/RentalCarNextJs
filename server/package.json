@@ -1,0 +1,51 @@
+{
+  "name": "go-rental-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node app.ts",
+    "dev": "nodemon app.ts",
+    "seeder": "tsc seeder/seeder.ts --outDir .temp && node .temp/seeder/seeder.js && rm -rf .temp",
+    "build:server": "npm install ../shared && npm install && tsc",
+    "build:shared": "cd .. && cd shared && npm install && npm run build",
+    "build:client": "cd .. && cd client && npm install ../shared && npm install && npm run build",
+    "build": "npm run build:shared && npm run build:client && npm run build:server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/ws": "^8.5.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "@go-rental/shared": "file:../shared",
+    "@graphql-tools/schema": "^10.0.5",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "graphql-middleware": "^6.1.35",
+    "graphql-shield": "^7.6.5",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-tag": "^2.12.6",
+    "graphql-ws": "^5.16.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "node-geocoder": "^4.4.0",
+    "nodemailer": "^6.9.14",
+    "stripe": "^16.8.0",
+    "ws": "^8.18.0"
+  }
+}

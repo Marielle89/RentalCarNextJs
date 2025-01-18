@@ -1,0 +1,19 @@
+# Base image
+FROM node:18
+
+# Set working directory
+WORKDIR /app/shared
+
+# Install global TypeScript
+RUN npm install -g typescript
+
+# Copy package.json and install dependencies
+COPY ./shared/package*.json ./
+RUN npm install
+
+# Copy shared source files
+COPY ./shared ./
+
+
+# Build the shared module
+RUN npm install && npm run build && echo "Shared module built successfully."

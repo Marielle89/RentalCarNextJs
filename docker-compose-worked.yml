@@ -1,0 +1,65 @@
+version: '3.9'
+
+services:
+  server:
+    container_name: rental-server-dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NODE_ENV: development
+      MONGO_URI: mongodb://localhost:27017/go-rental
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./server:/app/server
+      - ./shared:/app/shared
+      - /app/server/node_modules
+    command: ["nodemon", "app.ts"]
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+  client:
+    container_name: rental-client-dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./client:/app/client
+      - /app/client/node_modules
+    command: ["npm", "start"]
+
+  mongo:
+    image: mongo:5.0
+    container_name: rental-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: "echo 'db.runCommand({ ping: 1 })' | mongo --quiet mongodb://localhost:27017/go-rental"
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+  mongo-express:
+    image: mongo-express:latest
+    container_name: rental-mongo-express
+    environment:
+      ME_CONFIG_MONGODB_SERVER: rental-mongo
+      ME_CONFIG_MONGODB_PORT: 27017
+      ME_CONFIG_BASICAUTH_USERNAME: admin
+      ME_CONFIG_BASICAUTH_PASSWORD: password
+    ports:
+      - "8081:8081"
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+volumes:
+  server_node_modules:
+  client_node_modules:
+  mongo_data:

@@ -1,0 +1,25 @@
+# Dockerfile for Client in Development Mode
+FROM node:18
+
+# Set working directory for the client
+WORKDIR /app/client
+
+COPY ./shared /app/shared
+
+# Copy package files for the client
+COPY ./client/package*.json ./
+
+# Install client dependencies and log the result
+RUN echo "Installing client dependencies..." && npm install && npm list --depth=0 && echo "Client dependencies installed."
+
+# Copy the rest of the client source code
+COPY ./client ./
+
+# Set environment to development
+ENV NODE_ENV=development
+
+# Expose client port
+EXPOSE 3000
+
+# Default command to start the client in development mode
+CMD ["sh", "-c", "echo 'Starting client...' && npm start"]

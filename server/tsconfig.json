@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "noImplicitAny": false,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDirs": [
+      "/node_modules/@types/",
+      "index.d.ts"
+    ],
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "noImplicitAny": false,
+  "files": ["index.d.ts"],
+  "include": ["/**/*"],
+  "exclude": ["node_modules"]
+}
