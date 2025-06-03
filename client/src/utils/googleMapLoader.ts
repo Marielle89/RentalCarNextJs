@@ -4,7 +4,7 @@ const libraries: Libraries = ["places", "maps"];
 
 const loadGoogleMapsApi = () => {
   const loader = new Loader({
-    apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY!,
+    apiKey: 'AIzaSyBJRoNBCFnUeo3kOOIwFLwBrW6GEXx6T-w',
     libraries,
   });
 

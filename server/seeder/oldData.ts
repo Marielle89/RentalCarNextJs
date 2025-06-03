@@ -5,15 +5,19 @@ export const cars = [
       "The Audi A4 is a luxury compact sedan that combines sophisticated design, advanced technology, and a dynamic driving experience. Known for its premium interior and precise handling, the A4 offers a range of powerful engines, including turbocharged four-cylinder options. Audi’s Quattro all-wheel-drive system provides excellent traction and stability, making it a great choice for various driving conditions. The A4’s infotainment system, with a large touchscreen and intuitive controls, enhances the overall driving experience, ensuring comfort and connectivity.",
     status: "Active",
     rentPerDay: 120,
-    address: "Pyriatynska St, 15, Kyiv, 02000",
+    address: "New York City, NY",
     images: [
       {
-        url: "https://cdn3.riastatic.com/photosnew/auto/photo/audi_a4__580319563f.jpg",
-        public_id: "audi_a4__580319563f",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723402978/gorental/demo/cars/biq5bagxwty4evbdsiac.jpg",
+        public_id: "gorental/demo/cars/biq5bagxwty4evbdsiac",
       },
       {
-        url: "https://bluesky-cogcms-prodb.cdn.imgeng.in/media/sfylaehv/a4-interior.jpg",
-        public_id: "a4-interior",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723402978/gorental/demo/cars/imkqapuaa3mutfpgudsr.webp",
+        public_id: "gorental/demo/cars/imkqapuaa3mutfpgudsr",
+      },
+      {
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723402982/gorental/demo/cars/fi9jfdbyxnwrkxqsa5le.jpg",
+        public_id: "gorental/demo/cars/fi9jfdbyxnwrkxqsa5le",
       },
     ],
     year: 2012,
@@ -33,15 +37,15 @@ export const cars = [
       "The BMW 3 Series is a renowned compact executive car that has been a benchmark for driving enthusiasts. It offers a perfect blend of performance, luxury, and technology. The 3 Series is available in various trims, including the high-performance M3, catering to different driving preferences. With its rear-wheel-drive layout, sharp steering, and potent engine options, the 3 Series delivers an exhilarating driving experience. Inside, the cabin is well-appointed with high-quality materials and cutting-edge technology, providing both comfort and a premium feel.",
     status: "Active",
     rentPerDay: 80,
-    address: "Stepana Bandery Ave, 11A, Kyiv, 04073",
+    address: "128-94 Sussex St, Buffalo, NY 14215, USA",
     images: [
       {
-        url: "https://avatars.mds.yandex.net/get-verba/1535139/2a00000190ba37bf4694149e8ebd5436a5da/cattouchret",
-        public_id: "cattouchret",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403174/gorental/demo/cars/ndqlknmzi0adx2h6kgz1.jpg",
+        public_id: "gorental/demo/cars/ndqlknmzi0adx2h6kgz1",
       },
       {
-        url: "https://www.cnet.com/a/img/resize/d068d3815c1f65c83614dba13d4dc4df6020d520/hub/2019/06/12/1d53ac53-2307-482e-a1f7-cf8f0c4b8c46/bmw-3-series-wagon-064.jpg",
-        public_id: "bmw-3-series-wagon-064",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403179/gorental/demo/cars/g97qvzpc7gquivemuisd.jpg",
+        public_id: "gorental/demo/cars/g97qvzpc7gquivemuisd",
       },
     ],
     year: 2015,
@@ -61,16 +65,20 @@ export const cars = [
       "The Ford Mustang is an iconic American muscle car that has captivated car enthusiasts for decades. Known for its powerful engines, bold styling, and aggressive stance, the Mustang offers a thrilling driving experience. Whether equipped with the turbocharged four-cylinder EcoBoost engine or the mighty V8 in the GT, the Mustang delivers impressive performance. The interior blends modern technology with classic design elements, and the latest models feature advanced driver-assistance systems. The Mustang remains a symbol of American automotive culture, offering a blend of performance and nostalgia.",
     status: "Active",
     rentPerDay: 65,
-    address: "Beresteiskyi Ave, 32, Kyiv, 04116",
+    address: "198-74 Andover Ave, Buffalo, NY 14215, USA",
     images: [
       {
-        url: "https://i.infocar.ua/i/12/4276/1400x936.jpg",
-        public_id: "Mustang",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403378/gorental/demo/cars/oycmlqwxmknul6ffxbuj.jpg",
+        public_id: "gorental/demo/cars/oycmlqwxmknul6ffxbuj",
       },
       {
-        url: "https://prodhq.s3.amazonaws.com/img/content/gp1/models/2022/ford/mustang_red_driverside_1080x1080.png",
-        public_id: "mustang_red_driverside",
-      }
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403375/gorental/demo/cars/uatc1wqn9s7vefzy0eb7.jpg",
+        public_id: "gorental/demo/cars/uatc1wqn9s7vefzy0eb7",
+      },
+      {
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403384/gorental/demo/cars/rfm0dmuscisihcs8fwxd.jpg",
+        public_id: "gorental/demo/cars/rfm0dmuscisihcs8fwxd",
+      },
     ],
     year: 2009,
     price: null,
@@ -89,15 +97,19 @@ export const cars = [
       "The Honda Civic is a compact car known for its reliability, fuel efficiency, and practicality. Available as a sedan, coupe, or hatchback, the Civic offers a versatile range of options to suit various needs. It comes equipped with advanced safety features, a spacious interior, and a user-friendly infotainment system. The Civic’s responsive handling and efficient engines make it a favorite among commuters and driving enthusiasts alike. With its long-standing reputation for durability and low maintenance costs, the Civic is a smart choice for anyone seeking a dependable and enjoyable vehicle.",
     status: "Active",
     rentPerDay: 35,
-    address: "Beresteiskyi Ave, 35, Kyiv, 02000",
+    address: "1399 E Esther St, Orlando, FL 32806, USA",
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Honda_Civic_e-HEV_Sport_%28XI%29_%E2%80%93_f_30062024.jpg",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403586/gorental/demo/cars/qack07k62sapezixwl0t.jpg",
         public_id: "gorental/demo/cars/qack07k62sapezixwl0t",
       },
       {
-        url: "https://dealerinspire-image-library-prod.s3.us-east-1.amazonaws.com/images/ka64JDOIudeMk889L2Yj818bFwRahPXHUspARXLi.png",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403587/gorental/demo/cars/tfntmebom3javn6h98qe.avif",
         public_id: "gorental/demo/cars/tfntmebom3javn6h98qe",
+      },
+      {
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403608/gorental/demo/cars/w2lsdwqo3zhzmhe7moun.jpg",
+        public_id: "gorental/demo/cars/w2lsdwqo3zhzmhe7moun",
       },
     ],
     year: 2011,
@@ -117,14 +129,14 @@ export const cars = [
       "The Hyundai Sonata is a midsize sedan that stands out for its sleek design, advanced technology, and value for money. The Sonata offers a comfortable ride, a spacious interior, and a host of standard features, including a large touchscreen, Apple CarPlay, and Android Auto. It’s available with a variety of powertrains, including a fuel-efficient hybrid option. Hyundai’s focus on safety is evident in the Sonata, with a comprehensive suite of driver-assistance features. The Sonata’s blend of style, comfort, and technology makes it a compelling choice in the competitive midsize sedan segment.",
     status: "Active",
     rentPerDay: 45,
-    address: "Beresteiskyi Ave, 44, Kyiv, 03057",
+    address: "3501 Shamrock Ct, Orlando, FL 32806, USA",
     images: [
       {
-        url: "https://kcars.com.ua/img/avto/hyundai-sonata-2015/hyundai-sonata-1.jpg",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403794/gorental/demo/cars/htfvzg0oyda2vtdor4gg.webp",
         public_id: "gorental/demo/cars/htfvzg0oyda2vtdor4gg",
       },
       {
-        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS50Nrb-hLxRaXeGRGqrBkXAIq5QA0Ye6XOSg&s",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723403794/gorental/demo/cars/ibrizzgguyjqhtcnyqfu.jpg",
         public_id: "gorental/demo/cars/ibrizzgguyjqhtcnyqfu",
       },
     ],
@@ -145,14 +157,14 @@ export const cars = [
       "The Nissan Altima is a midsize sedan that combines comfort, efficiency, and modern technology. Known for its smooth ride and spacious interior, the Altima is designed to provide a comfortable driving experience for both the driver and passengers. It offers a choice of engines, including a turbocharged option that delivers enhanced performance. The Altima also features Nissan’s advanced driver-assistance systems, making it a safe and convenient vehicle for everyday driving. With its stylish design and practical features, the Altima is a popular choice among families and commuters.",
     status: "Active",
     rentPerDay: 32,
-    address: "Volodymyrska St, 40А, Kyiv, 01034",
+    address: "5910 Boca Raton Dr, Dallas, TX 75230, USA",
     images: [
       {
-        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVXMEZNEiYmzUGJUq2mReb8mqrpdXq9nBzlQ&s",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723404025/gorental/demo/cars/djge3pem8mqt6g88yfxf.jpg",
         public_id: "gorental/demo/cars/djge3pem8mqt6g88yfxf",
       },
       {
-        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5KstN0I-LNgOgYXJpgZgrwvcGgSZ25rV0hw&s",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723404025/gorental/demo/cars/u6zferximo1gi5enck1j.jpg",
         public_id: "gorental/demo/cars/u6zferximo1gi5enck1j",
       },
     ],
@@ -173,14 +185,14 @@ export const cars = [
       "The Toyota Corolla is one of the best-selling cars worldwide, known for its reliability, fuel efficiency, and affordability. Available as a sedan or hatchback, the Corolla offers a practical and comfortable driving experience. It features a straightforward interior design with easy-to-use technology, including a touchscreen infotainment system with Apple CarPlay and Android Auto. The Corolla is equipped with Toyota’s Safety Sense suite, providing a range of driver-assistance features. Its reputation for longevity and low maintenance costs makes the Corolla a top choice for budget-conscious buyers.",
     status: "Active",
     rentPerDay: 29,
-    address: "Mykhaila Hrushevskoho St, Kyiv, 02000",
+    address: "6992 Lavendale Ave, Dallas, TX 75230, USA",
     images: [
       {
-        url: "https://uzr.com.ua/wp-content/uploads/2024/09/2025-toyota-corolla-1.jpg.webp",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723404184/gorental/demo/cars/sn8cxt0cnuadncitb8yx.jpg",
         public_id: "gorental/demo/cars/sn8cxt0cnuadncitb8yx",
       },
       {
-        url: "https://uzr.com.ua/wp-content/uploads/2024/09/2025-toyota-corolla-3.jpg.webp",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723404185/gorental/demo/cars/pw5jinhnj6ljhpuwejsn.jpg",
         public_id: "gorental/demo/cars/pw5jinhnj6ljhpuwejsn",
       },
     ],
@@ -200,15 +212,15 @@ export const cars = [
     description:
       "The Audi Q5 is a luxury compact SUV that blends style, performance, and practicality. It offers a refined driving experience with its smooth ride, powerful engine options, and advanced Quattro all-wheel-drive system. The Q5’s interior is elegantly designed, featuring high-quality materials, comfortable seating, and the latest technology, including a large infotainment screen and a digital instrument cluster. The Audi Q5 is also equipped with a range of safety features and driver-assistance systems, making it a well-rounded choice for those seeking a premium SUV.",
     status: "Active",
-    rentPerDay: 1000,
-    address: "Brovarskyi Ave, 17, Kyiv, 02000",
+    rentPerDay: 65,
+    address: "5667 Boaz St, Dallas, TX 75209, USA",
     images: [
       {
-        url: "https://nextcar.ua/images/blog/605/Audi-Q5-Sportback-2025__1_.jpg",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723404320/gorental/demo/cars/batozhqurlnho0c9ptox.jpg",
         public_id: "gorental/demo/cars/batozhqurlnho0c9ptox",
       },
       {
-        url: "https://cardrive.com.ua/file/7bf3d780-d9ba-4761-93f6-6960751cbc30",
+        url: "https://res.cloudinary.com/shopitnow-udemy/image/upload/v1723404321/gorental/demo/cars/y1wcdb9zar49ywksyoom.jpg",
         public_id: "gorental/demo/cars/y1wcdb9zar49ywksyoom",
       },
     ],

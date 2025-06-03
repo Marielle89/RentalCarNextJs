@@ -461,7 +461,7 @@ export const resetPasswordHTMLTemplate = (
                 <a
                   href="https://example.com"
                   class="f-fallback email-masthead_name"
-                  >Go Rental</a
+                  >Rental Car</a
                 >
               </td>
             </tr>
@@ -486,7 +486,7 @@ export const resetPasswordHTMLTemplate = (
                         <h1>Hi ${username},</h1>
                         <p>
                           You recently requested to reset your password for your
-                          Go Rental account. Use the button below to reset it.
+                          Rental Car account. Use the button below to reset it.
                           <strong
                             >This password reset is only valid for the next 30
                             minutes.</strong
@@ -529,7 +529,7 @@ export const resetPasswordHTMLTemplate = (
                           <a href="{{support_url}}">contact support</a> if you
                           have questions.
                         </p>
-                        <p>Cheers, <br />The Go Rental Team</p>
+                        <p>Cheers, <br />The Rental Car Team</p>
 
                         <table class="body-sub" role="presentation">
                           <tr>
@@ -564,7 +564,7 @@ export const resetPasswordHTMLTemplate = (
                   <tr>
                     <td class="content-cell" align="center">
                       <p class="f-fallback sub align-center">
-                        &copy; 2024 Go Rental. All rights reserved.
+                        &copy; 2024 Rental Car. All rights reserved.
                       </p>
                       <p class="f-fallback sub align-center">
                         <br />1234 Street Rd. <br />Suite 1234

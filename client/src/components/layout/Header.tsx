@@ -63,7 +63,7 @@ const Header = () => {
     <div className="flex items-center justify-between px-5 py-2 bg-white dark:bg-gray-800 border">
       <Link to="/" className="flex items-center gap-2">
         <CarTaxiFront className="h-8 w-8" />
-        <span className="text-lg font-semibold">Go Rental</span>
+        <span className="text-lg font-semibold">Rental Car</span>
       </Link>
       <div className="hidden lg:flex gap-4 mr-1">
         {!currentUser && !loading && (

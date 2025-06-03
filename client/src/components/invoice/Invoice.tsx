@@ -61,9 +61,9 @@ const Invoice = () => {
               <CarTaxiFront className="h-20 w-20" />
             </div>
             <div id="company">
-              <h2 className="name">Go Rental</h2>
-              <div>455 Foggy Heights, AZ 85004, US</div>
-              <div>(602) 519-0450</div>
+              <h2 className="name">Rental Car</h2>
+              <div>Kyiv, Persha street 1</div>
+              <div>(044)1234567</div>
               <div>
                 <a href="mailto:company@example.com">support@gorental.com</a>
               </div>

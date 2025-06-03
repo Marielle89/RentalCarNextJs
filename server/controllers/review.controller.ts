@@ -70,3 +70,29 @@ export const deleteReview = catchAsyncErrors(async (reviewId: string) => {
 
   return true;
 });
+
+
+// Створення нового користувача
+const user = await User.create({
+    name: "Admin",
+    email: "admin@example.com",
+    age: 28,
+});
+
+// Знайти всіх користувачів
+const users = await User.find();
+
+// Знайти одного користувача за email
+const user = await User.findOne({ email: "admin@example.com" });
+
+// Оновити користувача за email
+const updatedUser = await User.findOneAndUpdate(
+    { email: "admin@gmail.com" },
+    { role: "user" },
+    { new: true } // повернути оновлений документ
+);
+
+// Видалити користувача
+await User.deleteOne({ email: "admin@example.com" });
+
+

@@ -2,7 +2,7 @@ const NodeGeocoder = require("node-geocoder");
 
 const options = {
   provider: "google",
-  apiKey: process.env.GOOGLE_MAPS_API_KEY,
+  apiKey: 'AIzaSyBJRoNBCFnUeo3kOOIwFLwBrW6GEXx6T-w',
   formatter: null,
 };
 

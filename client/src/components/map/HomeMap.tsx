@@ -44,7 +44,7 @@ const HomeMap = ({ cars }: Props) => {
       const mapInstance = new Map(
         document.getElementById("map") as HTMLElement,
         {
-          mapId: process.env.REACT_APP_GOOGLE_MAP_ID!,
+          mapId: '764753735385-en2o7ni65ngtr1bc78n5q6jsgofen4c9.apps.googleusercontent.com',
         }
       );
 
